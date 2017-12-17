@@ -30,7 +30,7 @@ int main()
 		printf("error!\n");
 		exit(0);
 	}
-	printf("c1_r = %u\n", c1_r);
+//	printf("c1_r = %u\n", c1_r);
 	m2 = ((c2 % p) * mod(c1_r, xu, p)) % p;
 	printf("The decrypted message is :%u\n", m2);
 
